@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import axios from "axios";
-import "./NewPost.css";
 import { Form, Input, Button, Select } from "antd";
 const { TextArea } = Input;
 
@@ -29,9 +28,7 @@ class NewPost extends Component {
   };
 
   handleChange = (value) => {
-    // this.setState({ author: value });
-    // console.log(this.state.author);
-    console.log(value);
+    this.setState({ author: value });
   };
 
   render() {

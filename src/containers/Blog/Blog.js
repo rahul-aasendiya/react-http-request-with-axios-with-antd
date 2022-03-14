@@ -7,7 +7,6 @@ import { Col, Row, Card } from "antd";
 import Post from "../../components/Post/Post";
 import FullPost from "../../components/FullPost/FullPost";
 import NewPost from "../../components/NewPost/NewPost";
-import "./Blog.css";
 
 class Blog extends Component {
   state = {

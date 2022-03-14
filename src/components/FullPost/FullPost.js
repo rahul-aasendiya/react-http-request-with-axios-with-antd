@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import axios from "axios";
-// import "./NewPost.css";
 import { Button, Divider, Typography, Row, Col, Card } from "antd";
 
 import "./FullPost.css";
