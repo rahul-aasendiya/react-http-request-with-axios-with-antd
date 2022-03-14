@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { Button, Divider, Typography, Row, Col, Card } from "antd";
-
-import "./FullPost.css";
+import { Button, Divider, Typography } from "antd";
 
 class FullPost extends Component {
   state = {
